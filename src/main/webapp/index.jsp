@@ -6,7 +6,7 @@
 </head>
 <body>
   <%
-   System.out.print("Hello");
+   out.print(webapp.MyClass.testMethod());
   %>
 </body>
 </html>
