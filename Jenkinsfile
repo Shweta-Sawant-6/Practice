@@ -1,6 +1,6 @@
 pipeline{
   environment{
-    reg = "shweta6/Practice"
+    reg = "shweta6/practice"
     regCre = "docker_id"
     dockerImg = ""
   }
