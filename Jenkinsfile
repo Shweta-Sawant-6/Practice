@@ -1,3 +1,4 @@
+
 pipeline{
   environment{
     reg = "shweta6/practice"
@@ -13,7 +14,7 @@ pipeline{
         }
       }
     }
-    stage('Deploy the Image'){
+    stage('Deploy the image'){
       steps{
         script{
           docker.withRegistry('',regCre){
