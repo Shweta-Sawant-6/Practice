@@ -6,7 +6,7 @@
 </head>
 <body>
   <%
-   MyClass tc = new MyClass();
+   webapp.MyClass tc = new webapp.MyClass();
    out.print(tc.testMethod());
   %>
 </body>
