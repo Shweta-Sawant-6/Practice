@@ -1,6 +1,6 @@
 
 public class MyClass {
-    public String testMethod(){
+    public static void main(){
         System.out.println("Hello");
     }
  }
