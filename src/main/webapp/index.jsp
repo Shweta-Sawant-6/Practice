@@ -1,4 +1,3 @@
-<%@page import="webapp.MyClass.java"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
  pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -8,25 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
- 
- <% public class MyClass {
-    public int addition(int num1, int num2) {
-        return (num1 + num2);
-    }
-
-    public int substraction(int num1, int num2) {
-        return (num1 - num2);
-    }
-
-    public int multiplication(int num1, int num2) {
-        return (num1 * num2);
-    }
-
-    public int division(int num1, int num2) {
-        return (num1 / num2);
-    }
-}
- %>
 
     <% MyClass calculator = new MyClass(); %>
 
